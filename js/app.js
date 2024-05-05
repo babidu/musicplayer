@@ -1,38 +1,38 @@
 let songs = [
    {
       songName: 'Aararaari Raaro',
-      url: '../songs/JAWAN_ Aararaari Raaro.m4a',
-      img: "../img/jawan.png",
+      url: 'songs/JAWAN_ Aararaari Raaro.m4a',
+      img: "img/jawan.png",
       duration: "4:39",
       artist: "Deepali"
    },
    {
       songName: 'Khuda Aur Mohabbat',
-      url: '../songs/Khuda Aur Mohabbat.mp3',
-      img: "../img/khuda-aur-mohabbat.png",
+      url: 'songs/Khuda Aur Mohabbat.mp3',
+      img: "img/khuda-aur-mohabbat.png",
       duration: "06:09",
       artist: "Rahat Fateh Ali Khan"
 
    },
    {
       songName: 'Rihaee',
-      url: '../songs/Rihaee.mp3',
-      img: "../img/rihaee.png",
+      url: 'songs/Rihaee.mp3',
+      img: "img/rihaee.png",
       duration: "03:43",
       artist: "Yasser Desai"
    },
    {
       songName: 'Rangreza',
-      url: '../songs/Rangreza.mp3',
-      img: "../img/rangreza.png",
+      url: 'songs/Rangreza.mp3',
+      img: "img/rangreza.png",
       duration: "03:02",
       artist: "Atif Aslam"
 
    },
    {
       songName: 'Ruaan',
-      url: '../songs/Ruaan Song.mp3',
-      img: "../img/tiger-3.png",
+      url: 'songs/Ruaan Song.mp3',
+      img: "img/tiger-3.png",
       duration: "04:17",
       artist: "Arijit Singh"
 
