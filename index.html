@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>music player</title>
+   <link rel="stylesheet" href="css/style.css">
+   <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet">
+   <!-- font awesome cdn -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+   <div id="main">
+      <!-- header start -->
+      <div id="header" class="common_style">
+         <section class="list common_style">
+            <img src="img/JioSaavn Logo Black Transparent.png" alt="">
+            <ul class="common_style">
+               <li><a href="#">music</a></li>
+               <li><a href="#">podcasts</a></li>
+               <li><a href="#">Go pro</a></li>
+            </ul>
+         </section>
+         <section class="search">
+            <span class="fa-solid fa-magnifying-glass"></span>
+            <input class="input-field" type="text" placeholder="">
+         </section>
+         <section class="options common_style">
+            <h6 class="music_lag">Music Languages <i class="fa-solid fa-angle-down"></i> </h6>
+            <h6>Login</h6>
+            <h6>sign Up</h6>
+         </section>
+      </div>
+
+      <!-- focus search box -->
+      <div id="searcch_result">
+         <h2>clear <i class="fa-regular fa-circle-xmark"></i></h2>
+      </div>
+
+      <!-- language -->
+      <div class="language">
+         <h6>What music do you like?</h6>
+         <p class="Pick"> Pick all the languages you want to listen to.</p>
+
+         <section class="languages">
+            <aside class="right_border">
+               <p>Hindi</p>
+               <p>Punjabi</p>
+               <p>Telugu</p>
+               <p>Gujarati</p>
+               <p>Bengali</p>
+               <p>Kannada</p>
+               <p>Bhojpuri</p>
+            </aside>
+            <aside>
+               <p>English</p>
+               <p>Tamil</p>
+               <p>Marathi</p>
+               <p>Urdu</p>
+               <p>Rajasthani</p>
+               <p>Haryanvi</p>
+               <p>Malayalam</p>
+            </aside>
+         </section>
+         <section class="updateBtn">
+            <button>update language</button>
+         </section>
+
+      </div>
+
+      <!-- home page -->
+      <div id="home" class="">
+         <div id="left">
+            <h5>browse</h5>
+            <ul>
+               <li>new release</li>
+               <li>top charts</li>
+               <li>top playlists</li>
+               <li>podcats</li>
+               <li>top artists</li>
+               <li>radio</li>
+            </ul>
+         </div>
+         <div id="right">
+            <div class="section_1 ">
+               <h2>trending now</h2>
+               <section class="cards ">
+                  <!-- <section class="card">
+                     <img src="img/jawan.png" alt="">
+                     <h4>heading</h4>
+                     <p>deepali</p>
+                     <section class="overlay">
+                        <i class="fa-solid fa-play"></i>
+                     </section> -->
+               </section>
+               </section>
+            </div>
+            <div class="section_2">
+               <h2>Top Charts</h2>
+               <section class="cards">
+                  <section class="card">
+                     <img src="img/jawan.png" alt="">
+                     <h4>heading</h4>
+                     <p>deepali</p>
+                     <section class="overlay">
+                        <i class="fa-solid fa-play"></i>
+                     </section>
+                  </section>
+                  <section class="card">
+                     <img src="img/jawan.png" alt="">
+                     <h4>heading</h4>
+                     <p>deepali</p>
+                     <section class="overlay">
+                        <i class="fa-solid fa-play"></i>
+                     </section>
+                  </section>
+               </section>
+            </div>
+
+            <!-- music play section -->
+
+            <div class="music_play">
+               <i class="fa-solid fa-arrow-left"></i>
+               <section class="top_section">
+                  <section>
+                     <img src="img/jawan.png" alt="">
+                  </section>
+                  <section>
+                     <h1>Title</h1>
+                     <p>21K Followers . 26 songs</p>
+                     <aside>
+                        <button class="btn" id="playBtn">Play</button>
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-ellipsis"></i>
+                     </aside>
+                  </section>
+               </section>
+               <div class="bottom_section">
+                  <section class="bottom_box">
+                     <section class="small_box">
+                        <img src="img/jawan.png" alt="">
+                        <h5>title</h5>
+                        <section class="overlay2">
+                           <i id="playSmallBox" class="fa-solid fa-play"></i>
+
+                        </section>
+                     </section>
+                     <section class="artist">
+                        <h6>artist</h6>
+                        <h6 class="duration">4:40</h6>
+                     </section>
+                  </section>
+               </div>
+               <div class="bottom_footer">
+                  <section class="footer_top"> <span>Home</span> <i class="fa-solid fa-greater-than"></i> <span>Hindi
+                        Albums</span>
+                  </section>
+                  <footer id="footer">
+                     <section>
+                        <h6>Top Hindi Artist</h6>
+                        <p>Md. Aziz</p>
+                        <p>Udit narayn</p>
+                        <p>kumar sanu</p>
+                        <p>sonu nigam</p>
+                        <p>Atif Aslam</p>
+                        <p>arijit singh</p>
+                        <p>Rood kumar rathod</p>
+                     </section>
+                  </footer>
+               </div>
+            </div>
+
+         </div>
+      </div>
+
+      <div id="player" class="common_style">
+         <section class="left">
+            <img src="img/jawan.png" alt="">
+            <aside>
+               <h6>title</h6>
+               <p>artist</p>
+            </aside>
+         </section>
+         <section class="icons">
+            <h3 id="backward"><i class="fa-solid fa-backward"></i></h3>
+            <h3 id="play"><i class="fa-solid fa-play"></i></h3>
+            <h3 id="forward"><i class="fa-solid fa-forward"></i></h3>
+         </section>
+         <section class="time">
+            <p>00:5.4s</p>
+         </section>
+      </div>
+
+      <div id="mobileIcons" class="">
+         <section>
+            <i class="fa-solid fa-house"></i>
+            <h5>Home</h5>
+         </section>
+         <section>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <h5>Search</h5>
+         </section>
+         <section>
+            <i class="fa-brands fa-firefox-browser"></i>
+            <h5>Browse</h5>
+         </section>
+         <section>
+            <i class="fa-regular fa-user"></i>
+            <h5>Login</h5>
+         </section>
+      </div>
+
+   </div>
+
+
+
+
+
+
+
+   <script src="js/app.js"></script>
+   <script src="js/api.js"></script>
+</body>
+
+</html>
